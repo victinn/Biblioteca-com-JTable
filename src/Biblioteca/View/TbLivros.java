@@ -289,11 +289,11 @@ public class TbLivros extends javax.swing.JFrame {
         int posicao = jTLivros.getSelectedRow();
         
         txtTitulo.setText(modelLivros.linhas.get(posicao).getTitulo());
-        txtPaginas.setText(modelLivros.linhas.get(posicao).getPaginas() + "");
+        txtPaginas.setText(String.valueOf(modelLivros.linhas.get(posicao).getPaginas()));
         txtNomeAutor.setText(modelLivros.linhas.get(posicao).getNomeAutor());
         comboGenero.setSelectedItem(modelLivros.linhas.get(posicao).getGenero());
         txtEditora.setText(modelLivros.linhas.get(posicao).getEditora());
-        txtAnoPublicacao.setText(modelLivros.linhas.get(posicao).getAnoPublicacao() + "");
+        txtAnoPublicacao.setText(String.valueOf(modelLivros.linhas.get(posicao).getAnoPublicacao()));
        
     }//GEN-LAST:event_jTLivrosMouseClicked
 
