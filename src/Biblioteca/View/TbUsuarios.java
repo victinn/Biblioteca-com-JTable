@@ -249,7 +249,7 @@ public class TbUsuarios extends javax.swing.JFrame {
         txtNome.setText(model.linhas.get(linha).getNome());
         txtEmail.setText(model.linhas.get(linha).getEmail());
         txtSenha.setText(model.linhas.get(linha).getSenha());
-        txtIdade.setText(model.linhas.get(linha).getIdade() + "");
+        txtIdade.setText(String.valueOf(model.linhas.get(linha).getIdade()));
         txtCurso.setText(model.linhas.get(linha).getCurso());
         
     }//GEN-LAST:event_jTUsuariosMouseClicked
